@@ -2,25 +2,76 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 section{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     width: 100%;
+    padding-top: 120px;
 }
-.container{
-    width: 90%;
-    margin: 0 auto;
-}
+
 .half-width{
-    width: 40%;
+    width: 45%;
+    padding-left: 50px;
     float: left;
 
+}
+
+.name-highlighter {
+    color: hotpink;
+}
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    background-color: hotpink;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 section::after{
     display: block;
     content: "";
     clear: both;
 }
+.half-width img {
+    width: 85%;
+
+}
+.container {
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work {
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+
+.img-container {
+    width: 28%;
+    display: inline-block;
+}
+.img-container img {
+    width: 100%;
+    padding: 20px;
+}
+
+
 
